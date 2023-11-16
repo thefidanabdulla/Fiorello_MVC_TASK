@@ -1,0 +1,33 @@
+﻿
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <a asp-action="create" asp-controller="recentwork" asp-area="admin" class="btn btn-primary col-2">Create</a>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">item.Id</th>
+                        <td>item.Title</td>
+                        <td>item.Desc</td>
+                        <td>item.ImagePath</td>
+                        <td>
+                            <a class="btn btn-primary" asp-action="update" asp-controller="recentwork" asp-area="admin" asp-route-id="item.Id">Update</a>
+                            <a class="btn btn-danger" asp-action="delete" asp-controller="recentwork" asp-area="admin" asp-route-id="item.Id">Delete</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

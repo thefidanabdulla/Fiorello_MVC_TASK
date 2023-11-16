@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Fiorello_MVC_TASK.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Fiorello_MVC_TASK.DAL
 {
@@ -8,5 +10,6 @@ namespace Fiorello_MVC_TASK.DAL
         {
 
         }
+        DbSet<Product> Products { get; set; }
     }
 }

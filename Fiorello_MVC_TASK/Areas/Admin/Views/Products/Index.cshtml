@@ -19,19 +19,22 @@
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        <tr>
-                            <td scope="row">@item.Id</td>
-                            <td>@item.Title</td>
-                            <td>@item.Price</td>
-                            <td>@item.Description</td>
-                            <td>
-                                <img src="~/assets/img/@item.PhotoName" />
-                            </td>
-                            <td>
-                                <a class="btn btn-primary" asp-action="update" asp-controller="recentwork" asp-area="admin" asp-route-id="item.Id">Update</a>
-                                <a class="btn btn-danger" asp-action="delete" asp-controller="recentwork" asp-area="admin" asp-route-id="item.Id">Delete</a>
-                            </td>
-                        </tr>
+                        if (!item.IsDeleted)
+                        {
+                            <tr>
+                                <td scope="row">@item.Id</td>
+                                <td>@item.Title</td>
+                                <td>@item.Price</td>
+                                <td>@item.Description</td>
+                                <td>
+                                    <img src="~/assets/img/@item.PhotoName" />
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary" asp-action="update" asp-controller="products" asp-area="admin" asp-route-id="@item.Id">Update</a>
+                                    <a class="btn btn-danger" asp-action="delete" asp-controller="products" asp-area="admin" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
                     }
 
                 </tbody>

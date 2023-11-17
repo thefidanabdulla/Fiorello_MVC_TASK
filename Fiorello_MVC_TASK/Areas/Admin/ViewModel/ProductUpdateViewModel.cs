@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Fiorello_MVC_TASK.ViewModel
+namespace Fiorello_MVC_TASK.Areas.Admin.ViewModel
 {
     public class ProductUpdateViewModel
     {

@@ -247,3 +247,8 @@ C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\obj\De
 C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\obj\Debug\net6.0\Fiorello_MVC_TASK.pdb
 C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\obj\Debug\net6.0\Fiorello_MVC_TASK.genruntimeconfig.cache
 C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\obj\Debug\net6.0\ref\Fiorello_MVC_TASK.dll
+C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\LENOVA\source\repos\Fiorello_MVC_TASK.Solution\Fiorello_MVC_TASK\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

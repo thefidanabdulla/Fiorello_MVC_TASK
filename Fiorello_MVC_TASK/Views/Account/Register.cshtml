@@ -1,0 +1,35 @@
+﻿@using Fiorello_MVC_TASK.ViewModels.Accounts;
+@model AccountRegisterViewModel
+
+
+<div class="container mt-5 mb-5">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form method="post" asp-action="register" asp-controller="account">
+        <div class="mb-3">
+            <label asp-for="FullName" class="form-label"></label>
+            <input asp-for="FullName" class="form-control">
+            <span class="text-danger"  asp-validation-for="FullName"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="UserName" class="form-label"></label>
+            <input asp-for="UserName" class="form-control" >
+            <span class="text-danger"  asp-validation-for="UserName"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" >
+            <span class="text-danger"  asp-validation-for="Email"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" class="form-control">
+            <span class="text-danger"  asp-validation-for="Password"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ConfirmPassword" class="form-label"></label>
+            <input asp-for="ConfirmPassword" class="form-control">
+            <span class="text-danger"  asp-validation-for="ConfirmPassword"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

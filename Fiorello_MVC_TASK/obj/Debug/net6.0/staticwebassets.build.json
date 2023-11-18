@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sfwe5G01cevAiUtM5lboKfEBFGo/qVJZPZLJmhlfdPI=",
+  "Hash": "U2/zVEjiIPgUotqg0iU6Ijexm4QmkB2NUf5Z6euUHpo=",
   "Source": "Fiorello_MVC_TASK",
   "BasePath": "_content/Fiorello_MVC_TASK",
   "Mode": "Default",
@@ -1615,6 +1615,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\134b4e00-59cd-4a78-817c-c6deba3e9606_h3-team-img-1.png"
     },
     {
+      "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\4f66d150-26a6-4f31-b91f-1b43fe9b1810_favicon.png",
+      "SourceId": "Fiorello_MVC_TASK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\",
+      "BasePath": "_content/Fiorello_MVC_TASK",
+      "RelativePath": "assets/img/4f66d150-26a6-4f31-b91f-1b43fe9b1810_favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\4f66d150-26a6-4f31-b91f-1b43fe9b1810_favicon.png"
+    },
+    {
       "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\4f890f7e-050f-4980-b436-5411ce4acfb0_favicon.png",
       "SourceId": "Fiorello_MVC_TASK",
       "SourceType": "Discovered",
@@ -1632,12 +1649,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\4f890f7e-050f-4980-b436-5411ce4acfb0_favicon.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\a913359d-319c-420c-a4dd-02aab9ab2503_instagram6.jpg",
+      "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg",
       "SourceId": "Fiorello_MVC_TASK",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\",
       "BasePath": "_content/Fiorello_MVC_TASK",
-      "RelativePath": "assets/img/a913359d-319c-420c-a4dd-02aab9ab2503_instagram6.jpg",
+      "RelativePath": "assets/img/a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1646,7 +1663,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\a913359d-319c-420c-a4dd-02aab9ab2503_instagram6.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg"
     },
     {
       "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\blog-feature-img-1.jpg",
@@ -1698,6 +1715,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog-feature-img-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\f81816ff-18a4-49c7-80d3-ee6791012a0b_WhatsApp Image 2023-11-17 at 1.06.15 PM.jpeg",
+      "SourceId": "Fiorello_MVC_TASK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\",
+      "BasePath": "_content/Fiorello_MVC_TASK",
+      "RelativePath": "assets/img/f81816ff-18a4-49c7-80d3-ee6791012a0b_WhatsApp Image 2023-11-17 at 1.06.15 PM.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\f81816ff-18a4-49c7-80d3-ee6791012a0b_WhatsApp Image 2023-11-17 at 1.06.15 PM.jpeg"
     },
     {
       "Identity": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\favicon.png",

@@ -1472,6 +1472,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\134b4e00-59cd-4a78-817c-c6deba3e9606_h3-team-img-1.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\4f66d150-26a6-4f31-b91f-1b43fe9b1810_favicon.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fiorello_MVC_TASK</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fiorello_MVC_TASK</BasePath>
+      <RelativePath>assets/img/4f66d150-26a6-4f31-b91f-1b43fe9b1810_favicon.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\4f66d150-26a6-4f31-b91f-1b43fe9b1810_favicon.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\4f890f7e-050f-4980-b436-5411ce4acfb0_favicon.png))">
       <SourceType>Package</SourceType>
       <SourceId>Fiorello_MVC_TASK</SourceId>
@@ -1488,12 +1504,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\4f890f7e-050f-4980-b436-5411ce4acfb0_favicon.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a913359d-319c-420c-a4dd-02aab9ab2503_instagram6.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Fiorello_MVC_TASK</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Fiorello_MVC_TASK</BasePath>
-      <RelativePath>assets/img/a913359d-319c-420c-a4dd-02aab9ab2503_instagram6.jpg</RelativePath>
+      <RelativePath>assets/img/a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1502,7 +1518,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a913359d-319c-420c-a4dd-02aab9ab2503_instagram6.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\blog-feature-img-1.jpg))">
       <SourceType>Package</SourceType>
@@ -1551,6 +1567,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\blog-feature-img-4.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f81816ff-18a4-49c7-80d3-ee6791012a0b_WhatsApp Image 2023-11-17 at 1.06.15 PM.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fiorello_MVC_TASK</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fiorello_MVC_TASK</BasePath>
+      <RelativePath>assets/img/f81816ff-18a4-49c7-80d3-ee6791012a0b_WhatsApp Image 2023-11-17 at 1.06.15 PM.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f81816ff-18a4-49c7-80d3-ee6791012a0b_WhatsApp Image 2023-11-17 at 1.06.15 PM.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\favicon.png))">
       <SourceType>Package</SourceType>

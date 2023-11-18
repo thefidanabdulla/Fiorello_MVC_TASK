@@ -1,5 +1,7 @@
 using Fiorello_MVC_TASK.DAL;
 using Fiorello_MVC_TASK.Helpers;
+using Fiorello_MVC_TASK.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +13,18 @@ builder.Services.AddSingleton<IFileService, FileService>();
 
 var connectionString = builder.Configuration.GetConnectionString("ConString");
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connectionString));
+
+builder.Services.AddIdentity<User, IdentityRole>(option =>
+{
+    option.Password.RequiredLength = 8;
+    option.Password.RequireNonAlphanumeric = true;
+    option.Password.RequiredUniqueChars = 1;
+    option.Password.RequireDigit = true;
+    option.Password.RequireLowercase = true;
+    option.Password.RequireUppercase = true;
+    option.User.RequireUniqueEmail = true;
+    option.Lockout.MaxFailedAccessAttempts = 3;
+}).AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
 
@@ -28,7 +42,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "admin",
-    pattern: "{area=exists}/{controller=Products}/{action=Index}/{id?}");
+    pattern: "{area=}/{controller=Products}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

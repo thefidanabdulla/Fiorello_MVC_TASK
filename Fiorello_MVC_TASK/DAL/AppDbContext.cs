@@ -1,10 +1,10 @@
-﻿
-using Fiorello_MVC_TASK.Models;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Fiorello_MVC_TASK.Models;
 
 namespace Fiorello_MVC_TASK.DAL
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User>
     {
         public AppDbContext(DbContextOptions<AppDbContext> opt) : base(opt)
         {

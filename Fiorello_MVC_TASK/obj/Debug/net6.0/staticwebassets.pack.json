@@ -385,6 +385,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\a04b66ab-33c1-4b26-b1f4-3a09a9eb8737_WhatsApp Image 2023-11-17 at 1.04.05 PM.jpeg"
     },
     {
+      "Id": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\avatar.jfif",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar.png"
+    },
+    {
       "Id": "C:\\Users\\LENOVA\\source\\repos\\Fiorello_MVC_TASK.Solution\\Fiorello_MVC_TASK\\wwwroot\\assets\\img\\blog-feature-img-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog-feature-img-1.jpg"
     },

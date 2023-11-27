@@ -1,13 +1,16 @@
 ﻿using Fiorello_MVC_TASK.Areas.Admin.ViewModel;
+using Fiorello_MVC_TASK.Constants;
 using Fiorello_MVC_TASK.DAL;
 using Fiorello_MVC_TASK.Helpers;
 using Fiorello_MVC_TASK.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fiorello_MVC_TASK.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductsController : Controller
     {
         private readonly AppDbContext _appDbContext;

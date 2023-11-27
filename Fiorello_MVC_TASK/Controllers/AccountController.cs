@@ -46,7 +46,6 @@ namespace Fiorello_MVC_TASK.Controllers
 
             return RedirectToAction("login");
 
-            return View();
         }
     
         public async Task<IActionResult> Login()
@@ -75,10 +74,6 @@ namespace Fiorello_MVC_TASK.Controllers
                 return View(model);
             }
 
-            if(!string.IsNullOrEmpty(model.ReturnUrl) && Url.IsLocalUrl(model.ReturnUrl))
-            {
-                return Redirect(model.ReturnUrl);
-            }
 
             return RedirectToAction("index", "home");
         }

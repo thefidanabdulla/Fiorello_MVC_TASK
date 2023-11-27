@@ -1,13 +1,10 @@
 ﻿@using Fiorello_MVC_TASK.ViewModels.Accounts;
 @model AccountLoginViewModel
 
-@{
-    var returnUrl = Context.Request.Query["ReturnUrl"];
-}
+
 <div class="container mt-5 mb-5">
     <div asp-validation-summary="ModelOnly"></div>
     <form method="post" asp-action="login" asp-controller="account">
-        <input type="hidden" asp-for="ReturnUrl" value="@returnUrl" />
         <div class="mb-3">
             <label asp-for="Username" class="form-label"></label>
             <input asp-for="Username" class="form-control">

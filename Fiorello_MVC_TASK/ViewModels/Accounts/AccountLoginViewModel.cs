@@ -9,7 +9,5 @@ namespace Fiorello_MVC_TASK.ViewModels.Accounts
         [Required, DataType(DataType.Password)]
         public string Password { get; set; }
 
-        public string? ReturnUrl { get; set; }  
-
     }
 }

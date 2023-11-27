@@ -1,4 +1,6 @@
-﻿using Fiorello_MVC_TASK.Models;
+﻿using Fiorello_MVC_TASK.Attributes;
+using Fiorello_MVC_TASK.Constants;
+using Fiorello_MVC_TASK.Models;
 using Fiorello_MVC_TASK.ViewModels.Accounts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -44,10 +46,13 @@ namespace Fiorello_MVC_TASK.Controllers
                 return View(model);
             }
 
+            await userManager.AddToRoleAsync(user, UserRoles.User.ToString());
+
             return RedirectToAction("login");
 
         }
-    
+
+        [OnlyAnonymous]
         public async Task<IActionResult> Login()
         {
             return View();
